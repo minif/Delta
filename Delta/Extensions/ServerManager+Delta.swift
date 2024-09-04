@@ -26,7 +26,7 @@ extension ServerManager
             // we're connected to Xcode for debugging purposes.
             // In that case, we manually treat JIT as unavailable
             // until AltServer is discovered to simulate real-world use.
-            ProcessInfo.isJITDisabled = true
+            //ProcessInfo.isJITDisabled = true
         }
         #endif
         

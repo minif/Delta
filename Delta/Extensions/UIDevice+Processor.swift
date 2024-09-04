@@ -30,6 +30,6 @@ extension UIDevice
         
         // JIT is supported on devices with an A12 processor or better running iOS 14.0 or later.
         // ARKit 3 is only supported by devices with an A12 processor or better, according to the documentation.
-        return ARBodyTrackingConfiguration.isSupported
+        return true
     }
 }
